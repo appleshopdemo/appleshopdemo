@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Apple Shop - магазин техники Apple в Харькове</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--Styles-->
+  <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+  <div class="wrapper">
+    <!-- DESKTOP MENU -->
+    <nav class="header-menu"> <!--Header Menu Wrapper-->
+
+      <a href="#" class="logo"> <!--Logo-->
+        <span class="logo__icon ion-social-apple-outline"></span>Apple Shop
+      </a>
+
+      <ul class="menu"> <!--Menu-->
+        <li class="menu__item">
+          <a class="menu__link" href="#">iPhone</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">iMac</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">MacBook</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Apple Watch</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Аксессуары</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">О компании<span class="ion-ios-arrow-down menu__icon"></span></a>
+
+          <ul class="menu-dropdown"> <!--Dropdown Menu-->
+            <li class="menu-dropdown__item">
+              <a class="menu-dropdown__link" href="#">Оплата и доставка</a>
+            </li>
+            <li class="menu-dropdown__item">
+              <a class="menu-dropdown__link" href="#">Гарантия</a></li>
+            <li class="menu-dropdown__item">
+              <a class="menu-dropdown__link" href="#">FAQ</a>
+            </li>
+            <li class="menu-dropdown__item">
+              <a class="menu-dropdown__link" href="#">Контакты</a>
+            </li>
+          </ul> <!--Dropdown Menu End-->
+
+        </li>
+      </ul>
+
+      <a class="call" href="tel:+380974079747">+38 (056) 777-56-71</a> <!--Phone Number-->
+
+      <div class="search"> <!-- Hidden Search Panel -->
+        <div class="search-wrapper">
+          <input name="search__focus" class="search__input" type="text" placeholder="Поиск">
+        </div>
+      </div>
+
+      <div class="search-toggle"> <!-- Search Toggle Icon -->
+        <i class="ion-ios-search-strong"></i>
+      </div>
+
+      <div class="cart-toggle"> <!-- Basket -->
+        <i class="ion-bag"></i>
+      </div>
+
+    </nav>
+    <!-- DESKTOP MENU END -->
+  </div>
+</header>
+
+
+<aside class="cart animate"> <!-- Sidebar Cart -->
+
+  <div class="cart__heading"> <!-- Cart Header -->
+    <h2 class="cart__title">Корзина</h2>
+    <div class="cart__close">
+      <span class="ion-android-arrow-forward cart__icon"></span>
+    </div>
+  </div>
+
+  <div class="cart__body"> <!-- Cart Content -->
+    <img class="cart__img" src="img/cart/item_01.png" alt="Cart Item">
+    <div class="cart__content">
+      <p class="cart__description">Apple MacBook Pro 2017 Silver 256GB</p>
+      <p class="cart__price">56 000 грн.</p>
+    </div>
+    <div class="cart_remove">
+      <span class="cart__icon-remove ion-android-close"></span>
+    </div>
+  </div>
+
+  <div class="cart__body">
+    <img class="cart__img" src="img/cart/item_02.png" alt="Cart item">
+    <div class="cart__content">
+      <p class="cart__description">iPhone X 256GB Space Gray</p>
+      <p class="cart__price">36 000 грн.</p>
+    </div>
+    <div class="cart__remove">
+      <span class="cart__icon-remove ion-android-close"></span>
+    </div>
+  </div>
+
+  <div class="cart__footer"> <!-- Cart Footer -->
+    <p class="cart__total">Итого: <span class="cart__highlight">100 000 грн.</span></p>
+    <button class="btn-primary btn--checkout">Перейти к оплате</button>
+  </div>
+
+</aside>
+
+
+<section class="banner"> <!-- Banner Carousel -->
+  <div class="carousel">
+
+    <div class="carousel__item">
+      <img class="img-responsive" src="img/slider-banner/banner_01.jpg" alt="Banner">
+      <div class="intro-text intro--slider">
+        <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+        <p class="intro__title intro--center">Apple iPhone</p>
+        <a href="#" class="light--btn btn-secondary">Купить сейчас</a>
+      </div>
+    </div>
+
+    <div class="carousel__item">
+      <img class="img-responsive" src="img/slider-banner/banner_02.jpg" alt="Banner">
+      <div class="intro-text intro--slider">
+        <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+        <p class="intro__title intro--center">Apple Watch</p>
+        <a href="#" class="light--btn btn-secondary">Купить сейчас</a>
+      </div>
+    </div>
+
+    <div class="carousel__item">
+      <img class="img-responsive" src="img/slider-banner/banner_04.jpg" alt="Banner">
+      <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+      <div class="intro-text intro--slider">
+        <p class="intro__title intro--center">Apple Product Red</p>
+        <a href="#" class="light--btn btn-secondary">Купить сейчас</a>
+      </div>
+    </div>
+
+    <div class="carousel__item">
+      <img class="img-responsive" src="img/slider-banner/banner_05.jpg" alt="Banner">
+      <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+      <div class="intro-text intro--slider">
+        <p class="intro__title intro--center">Apple MacBook</p>
+        <a href="#" class="light--btn btn-secondary">Купить сейчас</a>
+      </div>
+    </div>
+
+    <div class="carousel__item">
+      <img class="img-responsive" src="img/slider-banner/banner_03.jpg" alt="Banner">
+      <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+      <div class="intro-text intro--slider">
+        <p class="intro__title intro--center">Аксессуары для Apple</p>
+        <a href="#" class="btn-secondary light--btn">Купить сейчас</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="relevant"> <!-- Relevant Items Section -->
+  <div class="wrapper">
+
+    <div class="features">
+      <!--OPTIMIZE FOR DIFFERENT IMAGE SIZES-->
+      <div class="features__item">
+        <img class="features__img img-responsive" src="img/features/item_1.png" alt="Features Item">
+        <div class="intro-text"> <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+          <p class="intro__title intro--dark">Air Pods</p>
+          <a href="#" class="btn-secondary dark--btn">Купить сейчас</a>
+        </div>
+      </div>
+      <!--OPTIMIZE FOR DIFFERENT IMAGE SIZES-->
+      <div class="features__item">
+        <img class="features__img img-responsive" src="img/cart/item_01.png" alt="Features item">
+        <div class="intro-text"> <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+          <p class="intro__title intro--dark">MacBook Pro</p>
+          <a href="#" class="btn-secondary dark--btn">Купить сейчас</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="features features--bottom">
+      <img class="img-responsive" src="img/features/item_3.jpg" alt="iMacPro">
+      <div class="intro-text intro--position">
+        <!--intro-text block with modifiers(sections/blocks/_intro-text.scss)-->
+        <p class="intro__title intro--bottom">iMac Pro</p>
+        <a href="#" class="btn-secondary light--btn">Купить сейчас</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="goods"> <!--Products Section-->
+  <div class="wrapper">
+    <div class="section-heading">
+      <h2>Товары</h2>
+    </div>
+    <div class="products">
+      <div class="products__item">
+        <a class="products__link" href="#">iPhone</a>
+        <img class="products__img" src="img/products/iphone.jpg" alt="iPhone">
+        <!-- Optimize Images -->
+      </div>
+      <div class="products__item">
+        <a class="products__link" href="#">iMac</a>
+        <img class="products__img" src="img/products/imac.jpg" alt="iMac">
+        <!-- Optimize Images -->
+      </div>
+      <div class="products__item">
+        <a class="products__link" href="#">Apple Watch</a>
+        <img class="products__img" src="img/products/iwatch.jpg" alt="Apple Watch">
+        <!-- Optimize Images -->
+      </div>
+      <div class="products__item">
+        <a class="products__link" href="#">MacBook</a>
+        <img class="products__img" src="img/products/mac.jpg" alt="MacBook">
+        <!-- Optimize Images -->
+      </div>
+    </div>
+    <div class="products__item"> <!-- Accessories -->
+      <a class="products__link products--accessories" href="#">Аксессуары</a>
+      <img class="products__img img-responsive" src="img/products/accessories.jpg" alt="Accessories">
+    </div>
+    <div class="btn-accent">
+      <a href="#" class="btn-secondary btn--accent-style"><span class="btn-icon ion-grid"></span>Смотреть все</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="popular">
+  <div class="wrapper">
+    <div class="section-heading">
+      <h2>Популярное</h2>
+    </div>
+    <div class="item"> <!--item block with modifiers(sections/blocks/_item.scss)-->
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+    </div>
+    <div class="item item--bottom">
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__price">36000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="discounts">
+  <div class="wrapper">
+    <div class="section-heading">
+      <h2>Акции</h2>
+    </div>
+    <div class="item"> <!--item block with modifiers(sections/blocks/_item.scss)-->
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__old-price">36000 грн.</p>
+        <p class="item__new-price">33000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__old-price">36000 грн.</p>
+        <p class="item__new-price">33000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__old-price">36000 грн.</p>
+        <p class="item__new-price">33000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+      <div class="item__product">
+        <a href="#"><img class="item__img" src="img/popular/image_01.png" alt="Popular Product"></a>
+        <h3 class="item__title">Apple iPhone X 64GB Space Gray</h3>
+        <p class="item__old-price">36000 грн.</p>
+        <p class="item__new-price">33000 грн.</p>
+        <div class="btn-accent">
+          <a href="#" class="btn-secondary btn--accent-style">Купить сейчас</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="newsletter">
+  <div class="wrapper">
+    <div class="newsletter-heading">
+      <h2>Подпишитесь и получайте новости об акциях<br> и специальных предложениях</h2>
+    </div>
+    <form action="#" class="newsletter-form">
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="Email" required>
+      </div>
+      <button type="submit" class="btn-primary">Подписаться</button>
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer-block">
+      <div class="footer-block__item footer-block--logo-container">
+        <a href="#" class="logo logo--footer">
+          <span class="logo__icon ion-social-apple-outline"></span>Apple Shop
+        </a>
+        <p class="footer-block__description">Apple Shop Kharkiv - сеть магазинов техники Apple в Харькове</p>
+        <div class="footer-block__social">
+          <p class="footer-block__social-title">Мы в соцсетях:</p>
+          <span class="ion-social-instagram footer-block__social-icon"></span>
+          <span class="ion-social-facebook footer-block__social-icon"></span>
+        </div>
+        <p class="footer-block__copy">2018 &copy; Все права защищены</p>
+      </div>
+      <div class="footer-block__item">
+        <h3 class="footer-block__title">Товары</h3>
+        <ul class="footer-block__list">
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">iPhone</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">iMac</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">MacBook</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">Apple Watch</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">Аксессуары</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-block__item">
+        <h3 class="footer-block__title">О компании</h3>
+        <ul class="footer-block__list">
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">Оплата и доставка</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">Гарантия</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">FAQ</a>
+          </li>
+          <li class="footer-block__list-item">
+            <a class="footer-block__list-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-block__item">
+        <h3 class="footer-block__title">Обратная связь</h3>
+        <p class="footer-block__contacts">
+          <span class="footer-block__contacts-item">0 (800) 755-754</span>
+          <span class="footer-block__contacts-item">(044) 33-777-54</span>
+          <span class="footer-block__contacts-item">(пн-пт с 9 до 21, сб-вс с 10 до 18)</span>
+        </p>
+        <p class="footer-block__newsletter-title">Подпишитесь и получайте новости об акциях<br> и специальных
+          предложениях</p>
+        <form action="#" class="footer-form">
+          <div class="form-group"><input type="text" placeholder="Email" class="form-control"></div>
+          <button type="submit" class="btn-primary btn--bottom">Подписаться</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
